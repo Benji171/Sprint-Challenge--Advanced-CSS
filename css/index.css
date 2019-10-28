@@ -168,6 +168,19 @@ p {
   text-align: center;
   padding-bottom: 10px;
 }
+@media (max-width: 500px) {
+  .nav-container {
+    overflow: hidden;
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .nav-container:hover {
+    background: rgba(255, 255, 255, 0.932);
+    color: black;
+  }
+}
 .nav-container h1 {
   font-size: 3rem;
   padding: 5px 0px 10px 0px;
