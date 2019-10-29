@@ -1,1 +1,30 @@
 // Navigation code here
+
+.nav-container {
+    text-align: center;
+    padding-bottom: 10px;
+
+    @media @phone {
+        overflow: hidden;
+        background-color: rgba(255, 255, 255, 0.884);
+        position: fixed; 
+        top: 0; 
+        width: 100%;
+
+    }
+
+    h1 {
+        font-size: 3rem;
+        padding: 5px 0px 10px 0px;
+    }
+
+    nav ul {
+        .flex-center();
+
+        a {
+            text-decoration: none;
+            padding: 17px 10px;
+            font-size: 1.2rem;
+        }
+    }
+}
